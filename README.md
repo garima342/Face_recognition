@@ -24,10 +24,12 @@ A real-time Face Recognition web app that detects and identifies individuals fro
 ---
 
 ## Project Structure
-|- face_detection_webcam.py
-|- haarcascade_frontalface_default.xml
-|- face_detection_img.py
-       |- friends.jpg
+├── face_detection_webcam.py           # Real-time face detection using webcam
+├── face_detection_img.py              # Face detection on static image (friends.jpg)
+├── haarcascade_frontalface_default.xml # Haar Cascade model for face detection
+├── friends.jpg                        # Sample image for testing face detection
+└── README.md                          
+
 
 ## Use Cases
 - Smart door unlocking
