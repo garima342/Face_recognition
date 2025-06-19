@@ -6,7 +6,7 @@ A real-time Face Recognition web app that detects and identifies individuals fro
 
 ## Features
 
-- Real-time face detection from webcam
+- Real-time face detection from webcam and image
 - Accurate face recognition using deep learning models
 - Fast and lightweight implementation
 - Easy to run locally or deploy to edge devices
@@ -24,8 +24,10 @@ A real-time Face Recognition web app that detects and identifies individuals fro
 ---
 
 ## Project Structure
-|- face_detection.py
+|- face_detection_webcam.py
 |- haarcascade_frontalface_default.xml
+|- face_detection_img.py
+       |- friends.jpg
 
 ## Use Cases
 - Smart door unlocking
